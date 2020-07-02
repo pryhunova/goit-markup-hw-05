@@ -284,6 +284,11 @@ p {
   background-color: var(--accent-color);
 }
 
+.contacts-footer:hover,
+.contacts-footer:focus {
+  color: var(--accent-color);
+}
+
 /*margin-right: 10px;*/
 .social-list .item {
   width: calc((100% - 30px) / 4);
@@ -312,6 +317,8 @@ p {
   height: 600px;
   padding-top: 200px;
   padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.8),
