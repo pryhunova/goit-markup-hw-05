@@ -597,7 +597,6 @@ p {
   margin-right: 0;
 }
 
-/*.li+ a */
 .team-icons a {
   display: flex;
   justify-content: center;
@@ -615,17 +614,11 @@ p {
   transition: fill var(--duration) var(--function);
 }
 
-/*.ul+.li+ a:hover,
-  .ul+.li+ a:focus {
-  } */
 .team-social .team-icons a:hover,
 .team-social .team-icons a:focus {
   background-color: var(--accent-color);
 }
 
-/*.ul+.li+ a:hover .svg,
-  .ul+.li+ a:focus .svg {
-  } */
 .team-social .team-icons a:hover .social-icon,
 .team-social .team-icons a:focus .social-icon {
   fill: #ffffff;
