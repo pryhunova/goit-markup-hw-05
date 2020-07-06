@@ -175,9 +175,9 @@ p {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
-.site-nav .link.current {
+/*.site-nav .link.current {
   color: var(--accent-color);
-}
+}*/
 
 /*активная страница в шапке portfolio */
 .portfolio .current {
