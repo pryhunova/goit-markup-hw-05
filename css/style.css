@@ -127,7 +127,6 @@ p {
 
 .site-nav .link::after {
   position: absolute;
-  left: 0;
   bottom: 0;
   content: '';
   opacity: 0;
