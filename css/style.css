@@ -136,14 +136,19 @@ p {
   height: 4px;
   border-radius: 2px;
   background-color: var(--accent-color);
-  transition: opacity var(--duration) var(--function);
+
+  transform: scaleX(0);
+  transition: opacity var(--duration) var(--function),
+    transform var(--duration) var(--function);
 }
 .site-nav .link:hover::after,
 .site-nav .link:focus::after {
   opacity: 1;
+  transform: scaleX(1);
 }
 .site-nav .link.current::after {
   opacity: 1;
+  transform: scaleX(1);
 }
 
 /* контейнер навигации */
